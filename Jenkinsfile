@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven:latest'
+            image 'maven:4.0.0-rc-4-sapmachine-25'
         }
     }
 
