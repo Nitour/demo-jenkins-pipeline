@@ -16,9 +16,11 @@ pipeline {
     post {
         success {
             echo '✅ Build succeeded!'
+            junit '**/target/surefire-reports/*.xml'
         }
         failure {
             echo '❌ Build failed!'
+            junit '**/target/surefire-reports/*.xml'
         }
     }
 }
