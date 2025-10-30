@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
     @Test
     void testAdd() {
         // Test volontairement vrai
-        // assertEquals(3, App.add(1, 2));
+        assertEquals(3, App.add(1, 2));
 
         // Test volontairement faux
-        assertEquals(999, App.add(1, 2));
+        // assertEquals(999, App.add(1, 2));
     }
  }
